@@ -1,0 +1,24 @@
+/*Keika dimensinya ditambahkan atribut height maka tinggi konten akan diperkecil, untuk mengtasi masalah itu 
+gunakan overflow*/
+
+/*Satuan Dimensi itu ada 2:
+  1.Absolute : px
+  2.Relatif : % 
+ */
+
+/*DImensi itu hanya ada 2 :
+1.widht
+2.height
+*/
+
+/*Value overflow ada 4 :
+1. visible (keaddaan default, biar tidak diubah)
+2. auto (automatis)
+3. hidden (menyembunyikan)
+4. scroll (hampir sama dengan auto tetapi jika ringgi konten pas dengan text maka scroll tetap ada*/
+.main {
+	background-color: red;
+	width: 400px;
+	height: 400px;
+	overflow: auto;
+}

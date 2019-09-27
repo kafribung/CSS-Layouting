@@ -1,0 +1,75 @@
+/*Penulsan margin: 20px 30px  (atas bawah 20px kiri kanan 30px)*/
+/*         margin: 20px 30px 10px (atas=20, kiri kanan=30 bawah=10)
+           margin: 10px 20px 5px 20px (atas=10, kanan=20, bawah=5, kiri=20))*/
+
+/*Horizontal */
+div {
+	display: inline-block;
+}
+.k{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+}
+.b{
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	margin-left: 0px ;
+
+	
+}
+.f{
+	width: 50px;
+	height: 50px;
+	background-color: violet;
+}
+
+
+/*Margin Auto
+.k{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	line-height: 200px;
+	text-align: center;
+	margin: 0 auto 20px;
+
+
+
+}
+.b{
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	margin-top: -60px;
+	
+}
+.f{
+	width: 50px;
+	height: 50px;
+	background-color: violet;
+}
+*/
+
+/*
+.k{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+.b{
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+.f{
+	width: 50px;
+	height: 50px;
+	background-color: violet;
+}

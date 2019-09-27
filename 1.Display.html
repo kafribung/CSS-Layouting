@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>Display</title>
+	<link rel="stylesheet" href="1.CSS.css">
+</head>
+<body>
+	<!-- h2 akan tampil diwabah h1, karena display h1 adalah BLOCK -->
+	<h1 class="judul">Display</h1> <h2>Tampil dibawah</h1> 
+
+		<!-- a tidak akan menambahkan baris baru karena displaynya inline, walaupun penulisannya menurun -->
+		<div class="navigasi">
+			<a href="#">Link1</a>
+			<a href="#">Link2</a>
+			<a href="#">Link3</a>
+		</div>
+
+		<!-- Wrnah akan mengikuti panjang text pada span, jika ingin merubah tinggi dan panjang text maka ganti displaynya menjadi block -->
+		<span>Display terbagi menjadi 4 :</span>
+		<!-- Span sama seperti div berguna untujk mengelompokkan  tag html, SPAN digunakan didalam p-->
+		<div class="fuad">
+			<ol>
+				<li>inline (vertikal)</li>
+				Elemen inline : b, storong, i, em, a, span, sub, sup, buttun, input, label, select, textarea
+				<li>block (horizontal)</li>
+				Elemen block  : h1-h6, p, ol, ul ,li, form, hr, div, br
+				<li>inline-block</li>
+				Gunakan display inline-block jika ingin mengganti display inline (agar dapat mengatur tinggi dan lebar)
+				<li>none</li>
+			</ol>
+		</div>
+
+		<p>Tetapi yang sering digunakan itu hanya inline dan block, berikut perdedaan inline dan block</p>
+		
+		<li>Inline</li>
+		<ul type="square">
+			<li>Tidak menambahkan baris baru ketika dibuat</li>
+			<li>Lebar dan tingginya tidak dapat  diubah, kecuali img (gambar)</li>
+			<li>Lebar dan tingginya sesuai panjang tekxnya</li>
+			<li></li>
+		</ul>
+		<li>Block</li>
+		<ul type="circle">
+			<li>Menambahkan baris baru</li>
+			<li>Jika lebarnya tidak diatur maka lebar dan tingginya akan mengikuti browser </li>
+			<li>Kita dapat mengatur tinggi dan lebar</li>
+			<li>Pada umumnya didalam display blok digunakan untuk menulis tag html yg displaynya inline</li>
+		</ul>
+		<li>Inline-Block</li>
+		<ul type="disc">
+			<li>Gabungan dari INLINE dan Block</li>
+		</ul>
+		<li>None</li>
+		<ul>
+			<li>Digunakan untuk menghilangkan elemen</li>
+		</ul>
+
+	</ol>
+</body>
+</html>

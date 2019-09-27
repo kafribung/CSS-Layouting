@@ -1,0 +1,18 @@
+.judul {
+	background-color: red;
+}
+.navigasi a{
+	background-color: lightblue;
+	
+}
+/* atribut Span memiliki default display : inline (Warnah tidak memenuhi browser / hanya memenuhi isi kontenya); */
+span{	
+	background-color: gray;
+	display: block;
+	width: 200px;
+	height: 400px;
+}
+.fuad {
+	background-color: salmon;
+
+}

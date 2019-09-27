@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Float</title>
+		<link rel="stylesheet" href="8.CSS.css">
+	</head>
+	<body>
+		<!--Value float right dan left-->
+
+		<p>
+			Float adalah elemen CSS yang berfungsi untuk mengatur posisi sebuah elemen (Sama seperti Margin), tetapi float memaksa sebuah elemen berada diseblah kiri atau kanan dari sebuah (parent/pembungkuusnya)
+
+			Ketika menggunakan float, eleemen yang dibawahnya akan menganggap elemen yg diatasnya akan keluar dari flow-normalnya
+
+			penggunaan margin adalah contoh normal-flow, sama juga seperti ketika displaynya block maka elemennya akan muncul dibawah, kalau inline maka elemennya akan muncul disamping 
+		</p>
+		<p>
+			Float dapat digunakan untuk membuat :
+				<ol type="1">
+					<li>Text-Wrapping</li>
+					<li>Image Gallery</li>
+					<li>Multi-Column layout</li>		
+				</ol>
+		</p>
+
+		<div class="container">
+			<!-- Ketika class dua diberikan float left maka elemen yg ada dibawahnya tidak akan mengganggapnya -->
+			<!-- Class dua akan berada disisi kanan atau kiri dari parentsnya (container) -->
+			<div class="satu">1</div>
+			<div class="dua">2</div>
+			<div class="tiga">3</div>
+		</div>
+
+
+		<div class="container1">
+			<h1>1.Text Wrapping</h1>
+				<img src="8.Float.jpg" alt="Bermasalah" title="Kafri_Bung" width="200" height="100">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+		</div>
+			<hr>
+		<div class="container2">
+			<!-- Agar no 1 berada ditengah tengah kotak tambahkan line-height pada css seusai tinggi kotaknya -->
+			<h1>2.Image Gallery</h1>
+				<div class="kotak">1</div>
+				<div class="kotak">2</div>
+				<div class="kotak">3</div>
+				<div class="kotak">4</div>
+				<div class="kotak">5</div>
+				<div class="kotak">6</div>
+				<div class="kotak">7</div>
+				<div class="kotak">8</div>
+				<div class="kotak">9</div>
+				<div class="kotak">10</div>
+		</div>
+			<br><br><br><br><br><br><br><br><br>
+		<div class="container3">
+			<!-- Ketika menggunakan float, eleemen yang dibawahnya akan menganggap elemen yg diatasnya akan keluar dari flow-normalnya
+ -->
+			<h1>3. Multi Column Layout</h1>
+				<div class="kanan">Kanan</div>
+				<div class="tengah">Tengah</div>
+				<div class="kiri">Kiri</div>
+		</div>
+	</body>
+
+</html>

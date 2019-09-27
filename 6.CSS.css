@@ -1,0 +1,17 @@
+div {
+	width: 300px;
+	margin:10px;
+	box-sizing: border-box;
+}
+/* Agar Ukurannya sama maka gunakan style box-sizing*/
+.satu{
+	background-color: blue;
+	padding: 20px;
+	border: 5px dashed green;
+}
+.dua{
+	background-color: salmon;
+	padding: 40px;
+	border: 10px dotted gray;
+
+}

@@ -1,0 +1,9 @@
+/*Penulisan padding sama dengan margin :*/
+/*Bisa menggunakan padding-right : 
+  atau mengunakan padding :*/
+div {
+	width: 200px;
+	background-color: green;
+	margin : 20px auto; 
+	padding: 20px 10px;
+}

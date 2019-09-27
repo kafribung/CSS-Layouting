@@ -1,0 +1,35 @@
+.container {
+	
+	width: 700px;
+	margin: auto;
+	border :2px solid black;
+	/*1.Menggunakan atribut overflow
+	overflow: auto; */
+
+
+}
+img {
+	
+	float: left;
+	margin: 5px;
+
+}
+/*div kosong kalau left pasanganx juga left
+.kosong {
+	clear: left;
+} */
+
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
